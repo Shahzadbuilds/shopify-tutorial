@@ -17,8 +17,7 @@
     {%- endunless -%}
       
 </section>
-<h3>Hello World</h3>
-
+     {% render 'tutorial' %}
     <title>
       {{ page_title }}
       {%- if current_tags %} &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
